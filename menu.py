@@ -21,15 +21,15 @@ while(salida == "1"):
     
     if entrada == "Agregar":
         agregarContacto()
-        print("Agregar contactos")
+        
     elif entrada == "Mostrar":
         mostrarcontactos()
     elif entrada == "Consulta":
-        print(lista[])   
+       
     elif entrada == "Actualizar":
-        print(lista[])     
+         
     elif entrada == "Eliminar":
-        print(lista[])
+       
     elif entrada ==  "Salir":
         exit()
     else:
