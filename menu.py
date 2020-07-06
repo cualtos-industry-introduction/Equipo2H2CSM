@@ -20,7 +20,14 @@ while(salida == "1"):
     entrada = input ("Escribe la opcion: ")
     
     if entrada == "Agregar":
-        agregarContacto()
+        nuevo_contacto = Contacto(input("Ingresa el nombre: "))
+        nuevo_contacto.empresa = input("Ingresa empresa: ")
+        nuevo_contacto.correo = input("Ingresa correo: ")
+        nuevo_contacto.telefono = input("Ingresa telefono: ")
+        nuevo_contacto.nota = input("Ingresa nota: ")
+        contactos.append(nuevo_contacto)
+        agenda.agregarContactos(contactos)
+        agenda.guardar()
         
     elif entrada == "Mostrar":
          mostrarcontactos()
