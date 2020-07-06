@@ -1,8 +1,8 @@
 from agenda import Agenda
 from contacto import Contacto
 
-agenda = Agenda('nueva_agenda')
-contactos = agenda.obtenerContactos()
+#agenda = Agenda('nueva_agenda')
+#contactos = agenda.obtenerContactos()
 
 def mostrar_menu():
     print("Agenda")
@@ -23,18 +23,14 @@ while(salida == "1"):
         agregarContacto()
         
     elif entrada == "Mostrar":
-        mostrarcontactos()
+         mostrarcontactos()
     elif entrada == "Consulta":
-       
+         print("")
     elif entrada == "Actualizar":
-         
+         print("")
     elif entrada == "Eliminar":
-       
+         print("")
     elif entrada ==  "Salir":
         exit()
     else:
-<<<<<<< HEAD
-        print("Opcion no valida")
-=======
         print("Opcoin no valida")
->>>>>>> d42be19441fc7cc774a527b8355e23fad0efdfa4
