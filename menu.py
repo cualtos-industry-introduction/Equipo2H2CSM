@@ -32,7 +32,8 @@ while(salida == "1"):
     elif entrada == "Mostrar":
          print(agenda.mostrarContactos())
     elif entrada == "Consulta":
-         print("")
+         consulta = input ("Escriba el nombre a consultar ")
+         print(agenda.obtenerContacto(consulta))
     elif entrada == "Actualizar":
          print("")
     elif entrada == "Eliminar":
