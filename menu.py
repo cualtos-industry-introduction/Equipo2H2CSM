@@ -23,7 +23,7 @@ while(salida == "1"):
         agregarContacto()
         print("Agregar contactos")
     elif entrada == "Mostrar":
-        mostrarContactos()exit
+        mostrarcontactos()
     elif entrada == "Consulta":
         print(lista[])   
     elif entrada == "Actualizar":
@@ -33,4 +33,8 @@ while(salida == "1"):
     elif entrada ==  "Salir":
         exit()
     else:
+<<<<<<< HEAD
         print("Opcion no valida")
+=======
+        print("Opcoin no valida")
+>>>>>>> d42be19441fc7cc774a527b8355e23fad0efdfa4
