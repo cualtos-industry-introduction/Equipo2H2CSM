@@ -1,8 +1,8 @@
 from agenda import Agenda
 from contacto import Contacto
 
-#agenda = Agenda('nueva_agenda')
-#contactos = agenda.obtenerContactos()
+agenda = Agenda('nueva_agenda')
+contactos = agenda.obtenerContactos()
 
 def mostrar_menu():
     print("Agenda")
