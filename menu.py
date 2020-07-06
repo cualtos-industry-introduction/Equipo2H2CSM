@@ -30,7 +30,7 @@ while(salida == "1"):
         agenda.guardar()
         
     elif entrada == "Mostrar":
-         mostrarcontactos()
+         print(agenda.mostrarContactos())
     elif entrada == "Consulta":
          print("")
     elif entrada == "Actualizar":
