@@ -4,10 +4,6 @@ from contacto import Contacto
 agenda = Agenda('nueva_agenda')
 contactos = agenda.obtenerContactos()
 
-
-    
-    while(salida == "1"):
-
 def mostrar_menu():
     print("Agenda")
     print("Selecciona la acción que desees efectuar")
@@ -18,13 +14,16 @@ def mostrar_menu():
     print("3. Eliminar contactos")
     print("9. Salir")
 
+salida = "1"
+while(salida == "1"):
+    mostrar_menu()
     entrada = input ("Escribe la opcion: ")
     
     if entrada == "Agregar":
         agregarContacto()
         print("Agregar contactos")
     elif entrada == "Mostrar":
-        print(lista[])
+        mostrarContactos()exit
     elif entrada == "Consulta":
         print(lista[])   
     elif entrada == "Actualizar":
@@ -34,4 +33,4 @@ def mostrar_menu():
     elif entrada ==  "Salir":
         exit()
     else:
-        print("Opcoin no valida")
+        print("Opcion no valida")
