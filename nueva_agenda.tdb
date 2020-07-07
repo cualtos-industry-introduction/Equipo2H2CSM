@@ -1,2 +1,4 @@
 {"nombre": "Hector", "empresa": "UDG", "correo": "Hofadd", "telefono": "123123124", "nota": "adfdas"}
 {"nombre": "Sergio", "empresa": "as", "correo": "afa", "telefono": "5456345", "nota": "xfsd"}
+{"nombre": "me\u00f1o esquivel", "empresa": "udg", "correo": "me\u00f1o@cualtos.udg.mx", "telefono": "3333333333", "nota": "cualtos"}
+{"nombre": "Horacio Gomez", "empresa": "UDG", "correo": "horacio@cuci.udg.mx", "telefono": "334455667788", "nota": "cualtos"}
