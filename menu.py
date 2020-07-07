@@ -11,15 +11,15 @@ def mostrar_menu():
     print("2. Mostar contactos")
     print("3. Consulta de contactos")
     print("4. Actualizar contactos")
-    print("3. Eliminar contactos")
-    print("9. Salir")
+    print("5. Eliminar contactos")
+    print("6. Salir")
 
 salida = "1"
 while(salida == "1"):
     mostrar_menu()
     entrada = input ("Escribe la opcion: ")
     
-    if entrada == "Agregar":
+    if entrada == "1":
         nuevo_contacto = Contacto(input("Ingresa el nombre: "))
         nuevo_contacto.empresa = input("Ingresa empresa: ")
         nuevo_contacto.correo = input("Ingresa correo: ")
@@ -29,15 +29,16 @@ while(salida == "1"):
         agenda.agregarContactos(contactos)
         agenda.guardar()
         
-    elif entrada == "Mostrar":
-         mostrarcontactos()
-    elif entrada == "Consulta":
+    elif entrada == "2":
+         print(agenda.mostrarContactos())
+    elif entrada == "3":
+         consulta = input ("Escriba el nombre a consultar ")
+         print(agenda.obtenerContacto(consulta))
+    elif entrada == "4":
          print("")
-    elif entrada == "Actualizar":
+    elif entrada == "5":
          print("")
-    elif entrada == "Eliminar":
-         print("")
-    elif entrada ==  "Salir":
+    elif entrada ==  "6":
         exit()
     else:
-        print("Opcoin no valida")
+        print("Opcion no valida")
